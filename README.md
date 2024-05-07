@@ -8,4 +8,4 @@ The [Make3D dataset](http://make3d.cs.cornell.edu/data.html) can be accessed her
 
 Checkpoints and additional information are available in the README file.
 
-The presentation and report are available on the [drive](https://github.com/nianticlabs/monodepth2)
+The presentation and report are available on the [drive](https://drive.google.com/drive/folders/1GAAg6Xuo40oYEsniGuuuYDjmV5iPLaB3?usp=sharing)
