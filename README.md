@@ -1,3 +1,11 @@
-Master Thesis The Light Weight Monocular Depth Estimation 
-Mehmet Omer Eyi
+# Master's Thesis: The Lightweight Monocular Depth Estimation
 
+**Author:** Mehmet Omer Eyi
+
+For dataset preparation, please consult the [Monodepth repository](https://github.com/nianticlabs/monodepth2).
+
+The [Make3D dataset](http://make3d.cs.cornell.edu/data.html) can be accessed here.
+
+Checkpoints and additional information are available in the README file.
+
+The presentation and report are available on the [drive](https://github.com/nianticlabs/monodepth2)
