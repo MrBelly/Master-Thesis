@@ -6,7 +6,7 @@ For KITTI dataset preparation, please refer to the [Monodepth repository](https:
 
 The [Make3D dataset](http://make3d.cs.cornell.edu/data.html) can be accessed here.
 
-Checkpoints are available in the [chkps]([https://drive.google.com/drive/folders/1GAAg6Xuo40oYEsniGuuuYDjmV5iPLaB3?usp=sharing](https://drive.google.com/drive/folders/1-smHjqesz2kR1EoDAMLq0UPjgcgGOlKr?usp=drive_link).
+Checkpoints are available in the [chkps](https://drive.google.com/drive/folders/1-smHjqesz2kR1EoDAMLq0UPjgcgGOlKr?usp=drive_link).
 
 The presentation and report are available in the [documents](https://drive.google.com/drive/folders/1GAAg6Xuo40oYEsniGuuuYDjmV5iPLaB3?usp=sharing)
 
