@@ -2,7 +2,7 @@
 
 **Author:** Mehmet Omer Eyi
 
-For KITTI dataset preparation, please consult the [Monodepth repository](https://github.com/nianticlabs/monodepth2).
+For KITTI dataset preparation, please refer to the [Monodepth repository](https://github.com/nianticlabs/monodepth2).
 
 The [Make3D dataset](http://make3d.cs.cornell.edu/data.html) can be accessed here.
 
