@@ -44,6 +44,8 @@ The Python dependencies for the training and the testing of the models are in th
 
 ## Commands
 
+Training and testing python files are in the Swift-Former Lite Mono repository.
+
 ## Pre-training on ImageNet 
 
 ```bash
