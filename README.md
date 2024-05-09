@@ -53,10 +53,10 @@ python -m torch.distributed.launch --nproc_per_node=2 main.py \
     --auto_resume True
 
 Training 
-
+```bash
 python train.py --data_path /home/woody/iwnt/iwnt106h/kitti_data/ --model_name my_train --load_weights_folder /home/hpc/iwnt/iwnt106h/Swift_Former_Lite_Mono/latest_weights/ --split eigen_zhou --num_epochs 60 --batch_size 12  --lr 0.0001 5e-6 31 0.0001 1e-5 31
 
 Evaluation
-
+```bash
 python evaluate_depth.py --data_path /home/woody/iwnt/iwnt106h/kitti_data/ --load_weights_folder /home/vault/iwnt/iwnt106h/Modified_Mixer_chkp/MLP_Wave/Run_2/my_train/models/weights_45/
 
