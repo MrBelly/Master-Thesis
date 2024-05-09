@@ -36,6 +36,27 @@ The [Make3D dataset](http://make3d.cs.cornell.edu/data.html) can be accessed her
 ## Checkpoints
 Checkpoints are available in the [chkps](https://drive.google.com/drive/folders/1-smHjqesz2kR1EoDAMLq0UPjgcgGOlKr?usp=drive_link).
 
+## Documents
 The presentation and report are available in the [documents](https://drive.google.com/drive/folders/1GAAg6Xuo40oYEsniGuuuYDjmV5iPLaB3?usp=sharing)
 
+## Installation
 The Python dependencies for the training and the testing of the models are in the depth_anaconda_env.
+
+## Commands
+
+Pre-training on ImageNet 
+
+```bash
+python -m torch.distributed.launch --nproc_per_node=2 main.py \
+    --data_path /home/woody/iwnt/iwnt106h/Imagenet/ \
+    --epochs 150 \
+    --auto_resume True
+
+Training 
+
+python train.py --data_path /home/woody/iwnt/iwnt106h/kitti_data/ --model_name my_train --load_weights_folder /home/hpc/iwnt/iwnt106h/Swift_Former_Lite_Mono/latest_weights/ --split eigen_zhou --num_epochs 60 --batch_size 12  --lr 0.0001 5e-6 31 0.0001 1e-5 31
+
+Evaluation
+
+python evaluate_depth.py --data_path /home/woody/iwnt/iwnt106h/kitti_data/ --load_weights_folder /home/vault/iwnt/iwnt106h/Modified_Mixer_chkp/MLP_Wave/Run_2/my_train/models/weights_45/
+
