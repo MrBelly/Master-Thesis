@@ -26,10 +26,14 @@ is employed to alleviate the complexity of the attention module introduced by th
 up-sampling technique. This up-sampling technique’s impacts on model complexity
 and performance are investigated.
 
-For KITTI dataset preparation, please refer to the [Monodepth repository](https://github.com/nianticlabs/monodepth2).
+## Dataset Preparation
 
+KITTI and Make3d datasets are used in this thesis. The KITTI dataset is used in the training and evaluation whereas Make3D is used only in the evaluation of the models to demonstrate the models' capabilities in generating generalized depth maps  
+
+For KITTI dataset preparation, please refer to the [Monodepth repository](https://github.com/nianticlabs/monodepth2).
 The [Make3D dataset](http://make3d.cs.cornell.edu/data.html) can be accessed here.
 
+## Checkpoints
 Checkpoints are available in the [chkps](https://drive.google.com/drive/folders/1-smHjqesz2kR1EoDAMLq0UPjgcgGOlKr?usp=drive_link).
 
 The presentation and report are available in the [documents](https://drive.google.com/drive/folders/1GAAg6Xuo40oYEsniGuuuYDjmV5iPLaB3?usp=sharing)
